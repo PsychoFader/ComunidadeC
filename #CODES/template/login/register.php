@@ -7,6 +7,7 @@ CREATE TABLE `users` (
   USERNAME varchar(20) NOT NULL,
   PASSWORD varchar(20) NOT NULL
 ) 
+-->
 <?php
 //REGISTO
 if (isset($_POST['botao_registo'])) {
@@ -17,7 +18,7 @@ if (isset($_POST['botao_registo'])) {
 	$pass1 = $_POST['password1'];
 	$pass2 = $_POST['password2'];
 	$erro = "";
--------------------------------------------------------------
+
 	$sql_select="SELECT * FROM users";
 	$resultado= mysqli_query($link, $sql_select);
 	$registo=mysqli_fetch_row($resultado);
@@ -28,40 +29,40 @@ if (isset($_POST['botao_registo'])) {
 	$pass_db = $registo[5];
 	$len_pass = mb_strlen($pass1, 'Utf-8');
 	$len_nome = mb_strlen($nome, 'Utf-8');
---------------------------------------------------------------
+
 
 
 	if (empty($email) OR empty($nome) OR empty($idade) OR empty($username) OR empty($pass1) OR empty($pass2)) {
-		array_push($erros, "Tem de preencher todos os dados!");
+		echo "Tem de preencher todos os dados!";
 	}
 	elseif ($idade < 18) {
-		array_push($erros, "Tem de ser maior de idade para se registar.<br>") ;
+		echo "Tem de ser maior de idade para se registar.<br>" ;
 	}
 	elseif ($email == $email_db) {
-		array_push($erros, "Esse email já está em uso!");
+		echo "Esse email já está em uso!";
 	}
 	elseif ($username == $username_db) {
-		array_push($erros, "Esse username já está em uso!");
+		echo "Esse username já está em uso!";
 	}
 	elseif ($len_pass <= 5) {
-		array_push($erros, "A sua password deve ter mais de 5 carateres");
+		echo "A sua password deve ter mais de 5 carateres";
 	}
 	elseif ($len_nome < 3) {
-		array_push($erros, "O seu nome tem de ter mais de 3 carateres");
+		echo "O seu nome tem de ter mais de 3 carateres";
 	}
 	elseif ($pass1 != $pass2) {
-		array_push($erros, "As suas passwords não sao iguais");
+		echo "As suas passwords não sao iguais";
 	}
-	if (count($erros) == 0) {
+	else {
 
 		$sql2 = "INSERT INTO users (email, nome, idade, username, password) 
 		VALUES ('$email', '$nome', '$idade', '$username', '$pass1');
 		";
 
 		mysqli_query($link, $sql2);
-		$_SESSION['username'] = $username;
-		$_SESSION['success'] = "Ja deu login";
-		header('location: loja.php');
+		//$_SESSION['email'] = $email;
+		//$_SESSION['success'] = "Ja deu login";
+		//header('location: loja.php');
 	}
 }	
 ?>
