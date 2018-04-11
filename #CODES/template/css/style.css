@@ -14,7 +14,7 @@
 
 	body, input, select, textarea {
 		color: #555555;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Arial', sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -91,6 +91,11 @@
 
 	header.major {
 		padding-bottom: 4em;
+	}
+
+	.corridas
+	{
+		background-color: black;
 	}
 
 	header h2 {
@@ -447,14 +452,14 @@
 	}
 
 	.wrapper.style2 {
-		background: #ececec;
+		background: #ffffff;
 		padding: 6em 0;
 		text-align: center;
 	}
 
 	.wrapper.style3 {
 		padding: 2em 0 3.5em 0;
-		background: #ececec;
+		background: #ffffff;
 	}
 
 		.wrapper.style3 span {
@@ -471,7 +476,7 @@
 /* Header */
 
 	#header {
-		background: #333333 url("../images/pic01.jpg") no-repeat;
+		background: #333333 url("../images/headerBack.jpg") no-repeat;
 		background-size: cover;
 		color: #fff;
 		padding: 6em 0;
