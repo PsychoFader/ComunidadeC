@@ -415,6 +415,9 @@
 		font-size: 1.4em;
 		font-weight: 600;
 		min-width: 10em;
+		position: relative;
+		bottom:480px;
+		left: 520px;
 	}
 
 		input[type="submit"]:hover,
@@ -524,7 +527,7 @@
 			}
 
 			#nav > ul > li:hover a {
-				color: #fff;
+				color: #FFF;
 			}
 
 			#nav > ul > li.active {
@@ -654,6 +657,8 @@
 			color: inherit;
 		}
 
+	}
+
 
 	th
 	{
@@ -672,4 +677,3 @@
 		text-align: left;
 		vertical-align: top;
 	}
-
