@@ -66,8 +66,8 @@
 						<header class="major">
 							<img src="images/singaporeflag.jpg" width="65" height="50" align="left">
 							<img src="images/singaporeairlines.png" width="150" height="75" align="right">
-							<font size="5">&nbsp;&nbsp;<b>2017 FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRANDE PR</b>
-							<p>&nbsp;&nbsp;Singapore</p></font>
+							<font size="5">&nbsp;&nbsp;<b>2017 FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRANDE PRÉMIO</b>
+							<p>&nbsp;&nbsp;Singapura</p></font>
 
 							<span class="byline"></span>
 						</header>
