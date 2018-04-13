@@ -1,17 +1,3 @@
-<?php
-include('db_connect.php');
-$sql = "SELECT * FROM start_australia;"
-$query = mysqli_query($link, $sql);
-$resultado = mysqli_num_rows($query);
-if ($resultado > 0) {
-	while($row = mysqli_fetch_array($query)){ 
-		$posicao = $row['POSICAO'];
-		$numero = $row['NUMERO'];
-		$carro = $row['CARRO'];
-		$tempo = $row['TEMPO'];
-	}
-}
-?>
 <!DOCTYPE HTML>
 <!--
 	Horizons by TEMPLATED
