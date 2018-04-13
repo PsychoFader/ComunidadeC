@@ -426,10 +426,11 @@
 	    font-weight: 600;
 	    min-width: 9em;
 	    position: relative;
-	    bottom: 600px;
-	    left: 740px;
+	    bottom: center;
+	    left: center;
 	    transition: all 0.5s;
 	}
+
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
