@@ -60,11 +60,12 @@
 						echo "Username: ".$username."<br>";
 						echo '<a href="logout.php" class="button alt">Logout</a>';
 					}else { 
-						'<a href="register.php" class="button alt">Registar</a>';
+						'<a href="register.php" class="button alt">Registar</a>
+						 <a href="login.php" class="button alt">Entrar</a>';
 						  } 
 				?>
 					<!-- Logo -->
-						<a href="index.html"><img src="images/formula-1-logo.png" height="20%" width="30%" alt="Fórmula 1 2017 Championship"></a><br><br>
+						<a href="index.php"><img src="images/formula-1-logo.png" height="20%" width="30%" alt="Fórmula 1 2017 Championship"></a><br><br>
 					
 					<!-- Nav -->
 						<nav id="nav">
@@ -85,7 +86,6 @@
 										<h2></h2>
 										<span class="byline"><big>Este Website foi criado no âmbito da disciplina de PSI com o objetivo de retratar o Campeonato do Mundo de Fórmula 1 de 2017. Este site poderá ser semelhante a muitos outros... Por favor não nos processem ♥ </big></span>
 									</header>
-									<a href="#" class="button alt">Registar</a>
 								</section>			
 							</div>
 						</div>
@@ -228,18 +228,18 @@
 									<div class="row">
 										<section class="6u">
 											<ul class="default">
-												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
-												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
-												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
-												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+												<li>Ana Blyat</li>
+												<li>André Gayvinho</li>
+												<li>Dinis Tinkle Winkle</li>
+												<li>Diogo Master</li>
 											</ul>
 										</section>
 										<section class="6u">
 											<ul class="default">
-												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
-												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
-												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
-												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+												<li>Gabriel Morcas</li>
+												<li>Gustavo Rola Pequena</a></li>
+												<li>Jean Sullivan</li>
+												<li>João Mangalho</li>
 											</ul>
 										</section>
 									</div>
@@ -249,7 +249,7 @@
 								<section>
 									<header class="major">
 										<h2>Equipa de Desenvolvimento</h2>
-										<span class="byline">12ºC Agrupamento Escolas Manuel Teixeira Gomes</span>
+										<span class="byline">12ºC Escola Secundária Manuel Teixeira Gomes</span>
 									</header>
 									<ul class="contact">
 										<li>
@@ -258,7 +258,7 @@
 										</li>
 										<li>
 											<span class="mail">Scrum Master</span>
-											<span><a href="#">Gonçalo Camacho</a></span>
+											<span>Gonçalo Camacho</span>
 										</li>
 										<li>
 											<span class="phone">Professor</span>
@@ -271,7 +271,7 @@
 
 					<!-- Copyright -->
 						<div class="copyright">
-							Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+							Design: <a href="http://templated.co">TEMPLATED</a>
 						</div>
 
 				</div>
