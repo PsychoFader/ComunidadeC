@@ -104,10 +104,12 @@
 		padding: 0;
 		font-size: 3em;
 		font-weight: 600;
+		color: #808080;
 	}
 
 	header .byline {
 		font-size: 1.6em;
+		color: #4d4d4d;
 	}
 
 	footer > :last-child {
@@ -678,3 +680,20 @@
 		text-align: left;
 		vertical-align: top;
 	}
+
+	#justify
+	{
+		width: 100%;
+
+	}
+
+	#justify p
+	{
+		margin: 0 auto;
+		max-width: 65%;
+		list-style: disc outside none;
+		text-align: justify;
+		color: #1a1a1a;
+
+	}
+
