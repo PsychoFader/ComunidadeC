@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html, charset=UTF-8');
-$link = mysqli_connect("localhost", "root", "", "formula1");
+$link = mysqli_connect("192.168.1.120", "root", "", "formula1");
 if ($link ==FALSE) {
 	die("Nao foi possivel estabelecer uma conexao" . mysqli_error());
 	exit;
