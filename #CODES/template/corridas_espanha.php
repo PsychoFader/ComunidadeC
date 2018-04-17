@@ -97,9 +97,9 @@
 					</th>
 					<th style="display: inline-block;">
 					<td class="td2" >
-						<a href="">Grelha de partida</a> 
+						<a href="start_espanha.php">Grelha de partida</a> 
 						<br><br><br> 
-						<a href="">Resultado</a>
+						<a href="results_espanha.php">Resultado</a>
 						<br><br><br>
 						<a href="">Campeonato</a>
 					</td>

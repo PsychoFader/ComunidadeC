@@ -111,9 +111,9 @@ if ($resultado > 0) {
 					</th>
 					<th style="display: inline-block;">
 					<td class="td2" >
-						<a href="">Grelha de partida</a> 
+						<a href="start_australia.php">Grelha de partida</a> 
 						<br><br><br> 
-						<a href="">Resultado</a>
+						<a href="results_australia.php">Resultado</a>
 						<br><br><br>
 						<a href="">Campeonato</a>
 					</td>
