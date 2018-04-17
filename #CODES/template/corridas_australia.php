@@ -1,16 +1,6 @@
 <?php
 include('db_connect.php');
-$sql = "SELECT * FROM start_australia;"
-$query = mysqli_query($link, $sql);
-$resultado = mysqli_num_rows($query);
-if ($resultado > 0) {
-	while($row = mysqli_fetch_array($query)){ 
-		$posicao = $row['POSICAO'];
-		$numero = $row['NUMERO'];
-		$carro = $row['CARRO'];
-		$tempo = $row['TEMPO'];
-	}
-}
+
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -111,9 +101,9 @@ if ($resultado > 0) {
 					</th>
 					<th style="display: inline-block;">
 					<td class="td2" >
-						<a href="">Grelha de partida</a> 
+						<a href="start_australia.php">Grelha de partida</a> 
 						<br><br><br> 
-						<a href="">Resultado</a>
+						<a href="results_australia.php">Resultado</a>
 						<br><br><br>
 						<a href="">Campeonato</a>
 					</td>
