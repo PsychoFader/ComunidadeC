@@ -67,9 +67,9 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="resultados.html"><b>Resultados</b></a></li>
-								<li><a href="equipas.html"><b>Equipas</b></a></li>
-								<li><a href="pilotos.html"><b>Pilotos</b></a></li>
+								<li><a href="resultados.php"><b>Resultados</b></a></li>
+								<li><a href="equipas.php"><b>Equipas</b></a></li>
+								<li><a href="pilotos.php"><b>Pilotos</b></a></li>
 								<li><a href="Quizz.php"><b>Quizz</b></a></li>
 							</ul>
 						</nav>
