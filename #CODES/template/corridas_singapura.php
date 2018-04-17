@@ -97,9 +97,9 @@
 					</th>
 					<th style="display: inline-block;">
 					<td class="td2" >
-						<a href="">Grelha de partida</a> 
+						<a href="start_singapura.php">Grelha de partida</a> 
 						<br><br><br> 
-						<a href="">Resultado</a>
+						<a href="results_singapura.php">Resultado</a>
 						<br><br><br>
 						<a href="">Campeonato</a>
 					</td>
