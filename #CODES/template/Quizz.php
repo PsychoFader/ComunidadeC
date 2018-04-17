@@ -1,9 +1,123 @@
+<?php
+
+
+
+if (isset($_POST["btn"])) {
+    $total=0;
+    $certas=0;
+    $resp1=$_POST["pergunta1"];
+    $resp2=$_POST["pergunta2"];
+    $resp3=$_POST["pergunta3"];
+    $resp4=$_POST["pergunta4"];
+    $resp5=$_POST["pergunta5"];
+    $resp6=$_POST["pergunta6"];
+    $resp7=$_POST["pergunta7"];
+    $resp8=$_POST["pergunta8"];
+    $resp9=$_POST["pergunta9"];
+    $resp10=$_POST["pergunta10"];
+    if ($resp1=="") {
+        echo("Não inseriu a resposta 1!<br>");
+    }else{
+        if ($resp1!="r1") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta2
+    if ($resp2=="") {
+        echo("Não inseriu a resposta 2!<br>");
+    }else{
+        if ($resp2!="r2") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta3
+    if ($resp3=="") {
+        echo("Não inseriu a resposta 3!<br>");
+    }else{
+        if ($resp3!="r4") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta4
+    if ($resp4=="") {
+        echo("Não inseriu a resposta 4!<br>");
+    }else{
+        if ($resp4!="r3") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta5
+    if ($resp5=="") {
+        echo("Não inseriu a resposta 5!<br>");
+    }else{
+        if ($resp5!="r2") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta6
+    if ($resp6=="") {
+        echo("Não inseriu a resposta 6!<br>");
+    }else{
+        if ($resp6!="r3") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta7
+    if ($resp7=="") {
+        echo("Não inseriu a resposta 7!<br>");
+    }else{
+        if ($resp7!="r2") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta8
+    if ($resp8=="") {
+        echo("Não inseriu a resposta 8!<br>");
+    }else{
+        if ($resp8!="r1") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta9
+    if ($resp9=="") {
+        echo("Não inseriu a resposta 9!<br>");
+    }else{
+        if ($resp9!="r1") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+    //resposta10
+    if ($resp10=="") {
+        echo("Não inseriu a resposta 10!<br>");
+    }else{
+        if ($resp10!="r3") {
+        }else{
+            $total+=10;
+            $certas+=1;
+        }
+    }
+}
+?>
+
 <!DOCTYPE HTML>
-<!--
-	Horizons by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 <head>
 	<title>Left Sidebar - Horizons by TEMPLATED</title>
@@ -47,7 +161,7 @@
 
 	<div id="main" class="wrapper style1">
 		<div class="container">		
-			<form action="quiz.php" method="POST">
+			<form action="Quiz1.php" method="POST">
 				Quem foi o vencedor do Campeonato do Mundo de F1 do ano 2017 : <br>
 				<input type="radio" name="pergunta1" value="r1"> Lewis Hamilton X<br>
 				<input type="radio" name="pergunta1" value="r2"> Sebastian Vettel<br>
@@ -94,15 +208,22 @@
 				<input type="radio" name="pergunta9" value="r3"> Pierre Gasly<br>
 				<br><br><br>
 				Qual foi a primeira corrida do Campeonato de Formula1 de 2017<br>
-				<input type="radio" name="pergunta9" value="r1"> Brasil<br>
-				<input type="radio" name="pergunta9" value="r2"> Monaco<br>
-				<input type="radio" name="pergunta9" value="r3"> Austrália X<br>
+				<input type="radio" name="pergunta10" value="r1"> Brasil<br>
+				<input type="radio" name="pergunta10" value="r2"> Monaco<br>
+				<input type="radio" name="pergunta10" value="r3"> Austrália X<br>
 				<br><br><br><br><br><br>
-				<input type="submit" name="btn" id="" value="Verificar">
+                <input type="submit" name="btn" value="Verificar">
 
+            </form>
+            <br><br>
+            
+            <?php
+                if (isset($_POST["btn"])) {
+                    echo("Acertaste ".$certas." respostas e obtiveste ".$total."% de respostas certas!!!");
+                }
+                
+            ?>
 
-
-			</form>
 		</div>
 	</div>
 
