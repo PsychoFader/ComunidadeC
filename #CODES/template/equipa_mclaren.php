@@ -6,7 +6,6 @@
                     <img src="images/mclaren.jpg" width="310" height="170" align="left">
                     <br>
                     Foi criada em 1963 pelo piloto neozelandes Bruce McLaren, que faleceu num acidente em Goodwood, em 1970, aos 33 anos.
-                    Inicialmente, a Ferrari patrocinou pilotos e carros de corrida fabricados, tendo, no ano de 1946, começado a sua produção independente.
                     <br><br>
                     A McLaren Racing Limited, competindo como McLaren F1 Team, é uma equipe de automobilismo, mais conhecida por competir na Fórmula 1, com sede na cidade de Woking, Inglaterra. É uma das equipes de maior sucesso na categoria.
                     <br><br>
